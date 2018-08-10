@@ -1,7 +1,6 @@
 #
 # Copyright (C) 2015-2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
-# Copyright (C) 2017 The AOKP Project
+#               2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +18,7 @@
 # Inherit from m8 device
 $(call inherit-product, device/htc/m8/device.mk)
 
-# Inherit some common AOKP stuff.
+# Inherit some common Lineage stuff.
 $(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
